@@ -2,6 +2,7 @@
   "name": "peg-php-parser-generator",
   "description": "A NodeJS application that takes in a PHPPeg grammar (like \"php-pegjs\") and outputs a PHP class that can parse that grammar.",
   "main": "generator.js",
+  "version": "0.1.0",
   "scripts": {
     "test": "node node_modules/jasmine/bin/jasmine.js",
     "generate": "node script/generate.js"
@@ -12,6 +13,7 @@
     "string": "3.3.1"
   },
   "devDependencies": {
-    "jasmine": "2.4.*"
+    "jasmine": "2.4.*",
+    "package-json-validator": "0.6.1"
   }
 }
