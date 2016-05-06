@@ -1,0 +1,16 @@
+{
+  "name": "peg-php-parser-generator",
+  "description": "A NodeJS application that takes in a PHPPeg grammar (like \"php-pegjs\") and outputs a PHP class that can parse that grammar.",
+  "main": "generator.js",
+  "scripts": {
+   
+  },
+  "dependencies": {
+    "pegjs": "0.8.0",
+    "php-pegjs": "0.8.7",
+    "string": "3.3.1"
+  },
+  "devDependencies": {
+    "jasmine": "2.4.*"
+  }
+}
