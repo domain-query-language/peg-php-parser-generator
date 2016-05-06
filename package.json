@@ -3,7 +3,8 @@
   "description": "A NodeJS application that takes in a PHPPeg grammar (like \"php-pegjs\") and outputs a PHP class that can parse that grammar.",
   "main": "generator.js",
   "scripts": {
-   
+    "test": "node node_modules/jasmine/bin/jasmine.js",
+    "generate": "node script/generate.js"
   },
   "dependencies": {
     "pegjs": "0.8.0",
