@@ -15,9 +15,19 @@ describe("Generator", function() {
     
     var failingGrammar = function(){
       var grammar = 'asdf sdg asdgasdfg';
-      var parser = generator.generate(grammar);
+      generator.generate(grammar);
     };
     
     expect(failingGrammar).toThrow();
+  });
+  
+  it("should fail when the grammar is empty", function(){
+    
+    var emptyGrammar = function(){
+      var grammar = '';
+      generator.generate(grammar);
+    };
+    
+    expect(emptyGrammar).toThrow();
   });
 });
